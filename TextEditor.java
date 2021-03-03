@@ -2,7 +2,7 @@ import java.util.*;
 import java.io.*;
 class Main {
     public static void main(String[] args) throws Exception{
-        File file=new File("Random.txt");
+        File file=new File("Rndom.txt");
         Scanner sc=new Scanner(file);
         LinkedList<StringBuilder> l=new LinkedList<StringBuilder>();
         while(sc.hasNextLine()) {
